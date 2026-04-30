@@ -3,6 +3,8 @@
 public class Classroom{
 
     public List<string> CreateTeam(string first, string second, string third){
-        return null;
+        List<string> team = CreateTeam("first", "second", "third");
+        
+        return team;
     }
 }
